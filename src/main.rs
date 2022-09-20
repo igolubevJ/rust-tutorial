@@ -6,4 +6,7 @@ fn display_result(result: i32) {
   println!("{:?}", result);
 }
 
-fn main() {}
+fn main() {
+  let result = sum(2, 3);
+  display_result(result);
+}
