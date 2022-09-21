@@ -1,1 +1,5 @@
-fn main() {}
+fn main() {
+  loop {
+    println!("Hi threr");
+  }
+}
