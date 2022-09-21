@@ -1,6 +1,10 @@
 fn main() {
+  let mut i = 3;
   loop {
-    println!("Hi threr");
-    break;
+    println!("{:?}", i);
+    i = i - 1;
+    if i == 0 {
+      break;
+    }
   }
 }
