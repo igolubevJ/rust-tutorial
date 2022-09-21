@@ -1,9 +1,10 @@
 fn main() {
-  let my_bool = true;
-
-  if my_bool == true {
-    println!("привет");
-  } else {
-    println!("пока");
+  let mut i = 3;
+  loop {
+    println!("{:?}", i);
+    i = i - 1;
+    if i == 0 {
+      break;
+    }
   }
 }
