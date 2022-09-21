@@ -1,10 +1,9 @@
 fn main() {
-  let my_number = 2;
+  let my_bool = true;
 
-  match my_number {
-    1 => println!("один"),
-    2 => println!("два"),
-    3 => println!("три"),
-    _ => println!("другое"),
+  if my_bool == true {
+    println!("привет");
+  } else {
+    println!("пока");
   }
 }
